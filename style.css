@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #555555;
+    
+}
+
+#buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    justify-content: flex-start;
+
+    gap:25px;
+    
+}
+
+#grid16, #grid8, #grid24, #grid-test {
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+
+
+h1 {
+    text-align: center;
+    text-shadow: 3px;
+}
+
+#container {
+    margin-top: 50px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.one-tile {
+    
+    background-color: #333333;
+    
+    height: auto;
+    margin: 1px;
+    padding: 20px 0;
+    width: auto;
+}
+
+
+
